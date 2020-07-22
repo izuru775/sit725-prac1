@@ -18,9 +18,9 @@
       }
       // living function simply starts an endless interval to generate a beat
       live(){
-          setInterval(()=>{this.enerateHeartBeat()},1000)
+          setInterval(()=>{this.generateHeartBeat()},1000)
       }
   }
   let james = new Biosensor("james");
-  let 
+  
   //console.log(james)
