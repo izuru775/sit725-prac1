@@ -11,6 +11,7 @@
       }
       // function to generate the heart rate and record it to the sensor
       //This function generate a random number between 60 -90
+      //hr is for heartbeat
       generateHeartBeat(){
           let hr=this.generateRandomNumbersBetween(60,70);
           this.heartrate=hr;
